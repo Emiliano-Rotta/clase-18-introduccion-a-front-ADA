@@ -180,19 +180,19 @@
 // estaEnRango(valor, minimo, maximo)
 // Crear una función estaEnRango que tome como argumentos tres números, un valor, un número minimo y un número maximo, y devuelva true si el valor se encuentra entre los números minimo y maximo o false si no (si el valor es igual a uno de los extremos se considera que está dentro del rango)
 //                    10      3      20
-function estaEnRango(valor, minimo, maximo){
-    if(valor > minimo && valor < maximo ){
-        console.log(true)
-    } 
-    else {
-        console.log(false)
-    }
+// function estaEnRango(valor, minimo, maximo){
+//     if(valor > minimo && valor < maximo ){
+//         console.log(true)
+//     } 
+//     else {
+//         console.log(false)
+//     }
 
-}
+// }
 
-estaEnRango(10, 3, 20) // true
-estaEnRango(3, 3, 20)   // false
-estaEnRango(20, 3, 20)  // false
-estaEnRango(100, 3, 20) // false
-estaEnRango(-20, 3, 20) // false
-estaEnRango(4, 3, 20) // true
+// estaEnRango(10, 3, 20) // true
+// estaEnRango(3, 3, 20)   // false
+// estaEnRango(20, 3, 20)  // false
+// estaEnRango(100, 3, 20) // false
+// estaEnRango(-20, 3, 20) // false
+// estaEnRango(4, 3, 20) // true
